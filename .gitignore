@@ -70,3 +70,7 @@ fp-info-cache
 
 # Thumbnails
 ._*
+
+*.gbr
+*.gbrjob
+*.drl
