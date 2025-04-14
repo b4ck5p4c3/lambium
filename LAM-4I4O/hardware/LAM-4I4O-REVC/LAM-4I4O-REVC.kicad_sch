@@ -410,7 +410,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "PESD15VL2BT"
+			(property "Value" "PESD12VL2BT"
 				(at 5.08 6.096 0)
 				(effects
 					(font
@@ -429,7 +429,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXS2UT_SERIES.pdf"
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD12VL2BT.pdf"
 				(at 41.91 -194.92 0)
 				(effects
 					(font
@@ -458,7 +458,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "771-PESD15VS2UT-T/R"
+			(property "Mouser Part Number" "771-PESD12VL2BT-T/R"
 				(at 41.91 -494.92 0)
 				(effects
 					(font
@@ -468,7 +468,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD15VS2UT215?qs=LOCUfHb8d9u9Mp9X1kxKXg%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD12VL2BT"
 				(at 41.91 -594.92 0)
 				(effects
 					(font
@@ -488,7 +488,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "PESD15VS2UT,215"
+			(property "Manufacturer_Part_Number" "PESD12VL2BT,215"
 				(at 41.91 -794.92 0)
 				(effects
 					(font
@@ -6788,7 +6788,7 @@
 		(fields_autoplaced yes)
 		(uuid "be34b21e-db15-4791-99b7-24b0695c3c45")
 		(property "Reference" "D1"
-			(at 234.95 97.7899 90)
+			(at 234.95 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,8 +6796,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PESD15VL2BT"
-			(at 234.95 100.3299 90)
+		(property "Value" "PESD12VL2BT"
+			(at 234.95 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6815,7 +6815,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESDXS2UT_SERIES.pdf"
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD12VL2BT.pdf"
 			(at 34.95 130.81 0)
 			(effects
 				(font
@@ -6844,7 +6844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD15VS2UT-T/R"
+		(property "Mouser Part Number" "771-PESD12VL2BT-T/R"
 			(at -265.05 130.81 0)
 			(effects
 				(font
@@ -6854,7 +6854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD15VS2UT215?qs=LOCUfHb8d9u9Mp9X1kxKXg%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD12VL2BT"
 			(at -365.05 130.81 0)
 			(effects
 				(font
@@ -6874,7 +6874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PESD15VS2UT,215"
+		(property "Manufacturer_Part_Number" "PESD12VL2BT,215"
 			(at -565.05 130.81 0)
 			(effects
 				(font
@@ -8161,7 +8161,7 @@
 			)
 		)
 		(instances
-			(project "LAM-4I4O-REVB"
+			(project "LAM-4I4O-REVC"
 				(path "/d96e190f-efcd-4f25-974b-ce3a34276a2b"
 					(page "2")
 				)
