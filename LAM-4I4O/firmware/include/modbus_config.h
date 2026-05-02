@@ -1,0 +1,42 @@
+#ifndef MODBUS_CONFIG_H_
+#define MODBUS_CONFIG_H_
+
+#include <ch32v00x.h>
+
+// USART configuration
+#define MODBUS_UART USART1
+#define MODBUS_SPEED 115200
+
+// Unique device ID in CumBus
+// Used to program any slave ID to bus by doing WRITE_SINGLE_REGISTER to slave ID 255
+// with register address as new slave address and this UNIQUE_ID as register value 
+// Example:
+//   uvx --from modbus-cli modbus -b 115200 -P n -p 1 -s 255 /dev/tty.usbserial-1140 h@230=0x5120 
+//   # sets slave ID to 230 for device with UNIQUE_ID=0x5120
+#define MODBUS_UNIQUE_DEVICE_ID 0x4140
+
+#define TX_PORT GPIOD
+#define TX_PIN GPIO_Pin_6
+
+#define RX_PORT GPIOD
+#define RX_PIN GPIO_Pin_5
+
+#define DIR_PORT GPIOA
+#define DIR_PIN GPIO_Pin_1
+
+#define DBG_LED_PORT GPIOC
+#define DBG_LED_PIN GPIO_Pin_0
+
+// Default addresses limits
+#define MAX_READ_DISCRETE_INPUTS 4
+#define MAX_READ_INPUT_REGISTERS 0
+#define MAX_WRITE_COILS 4
+#define MAX_WRITE_REGISTERS 0
+
+// Limits for response buffers (max number of consecutive outputs)
+#define MAX(a, b) ((a) < (b) ? (b) : (a))
+
+#define READ_DISCRETE_INPUTS_SIZE MAX(0, MAX(1, MAX_READ_DISCRETE_INPUTS))
+#define READ_INPUT_REGISTERS_SIZE MAX(0, MAX(1, MAX_READ_INPUT_REGISTERS))
+
+#endif  // MCU_CONFIG_H
